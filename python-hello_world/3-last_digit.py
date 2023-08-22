@@ -14,12 +14,11 @@
 
 #!/usr/bin/python3
 import random
-
 number = random.randint(-10000, 10000)
+# Get the last digit of the number
 
 # Get the last digit of the number
-last_digit = abs(number) % 10  # We use abs to ensure that negative numbers also give positive last digits
-
+last_digit = abs(number) % 10 
 print("Last digit of", number, "is", last_digit, end=" ")
 
 if last_digit > 5:
