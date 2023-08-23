@@ -1,4 +1,3 @@
-
-#!/usr/bin/python3
-for num in range(99):
-    print(("{:2d} = 0x{:x}").format(num, num))
+#for loop printing 1-99 
+for num in range(100):
+    print("{:02d}".format(num), end=", " if num < 99 else "\n")
