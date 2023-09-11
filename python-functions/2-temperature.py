@@ -1,12 +1,12 @@
-def convert_to_celsius(F):
-  celsius = (F - 32) * 5/9
-  return celsius
-
 def main():
   print(convert_to_celsius(100))
   print(convert_to_celsius(-40))
   print(convert_to_celsius(-459.67))
   print(convert_to_celsius(32))
+
+def convert_to_celsius(F):
+  celsius = (F - 32) * 5/9
+  return celsius
 main()
 # convert_to_celsius = __import__('2-temperature').convert_to_celsius
 
