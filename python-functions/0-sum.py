@@ -22,12 +22,12 @@
 
 # Function to add two integers
 def add(a, b, end=''):
-    while b != 0:
-        carry = a & b
-        a = a ^ b
-        b = carry << 1
+    # while b != 0:
+        # carry = a & b
+        # a = a ^ b
+        # b = carry << 1
 
-    return a
+    return a + b
 
 # Main code
 if __name__ == "__main__":
