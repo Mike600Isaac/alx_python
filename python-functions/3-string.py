@@ -5,7 +5,7 @@ def main():
   print(reverse_string("Hello, World!")) # Output: "!dlroW ,olleH"
 
 
-def reverse_string(string):
+def reverse_string(string, end=''):
     reversed = string[::-1]
     return reversed
 main()
