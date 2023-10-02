@@ -1,3 +1,9 @@
-
 from add_0 import add
-print(add(3,5))
+
+def result():
+  a = 1
+  b = 2
+  print("{} + {} = {}".format(a, b, add(a,b)))
+if __name__ == "__main__":
+    result()
+    
