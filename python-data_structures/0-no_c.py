@@ -41,9 +41,10 @@ def no_c(my_string):
   return new_string
 
 # Function to remove all c and C from strings
+# I Will like to know the meaning of this code if __name__ = "__main__": means
 
 # Test the function
-# if __name__ == "__main__":
-print(no_c("Holberton School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+if __name__ == "__main__":
+    print(no_c("Holberton School"))
+    print(no_c("Chicago"))
+    print(no_c("C is fun!"))
