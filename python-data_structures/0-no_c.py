@@ -40,7 +40,10 @@ def no_c(my_string):
       new_string += i
   return new_string
 
+# Function to remove all c and C from strings
 
-print(no_c("Holberton School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+# Test the function
+if __name__ == "__main__":
+    print(no_c("Holberton School"))
+    print(no_c("Chicago"))
+    print(no_c("C is fun!"))
