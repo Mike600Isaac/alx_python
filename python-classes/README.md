@@ -1,0 +1,1 @@
+This is a project to understanding OOP known as Object Oriented Programmming Paradigm
